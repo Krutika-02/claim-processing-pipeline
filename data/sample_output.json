@@ -1,0 +1,472 @@
+{
+  "claim_id": "CLM-2024-789456",
+  "file_name": "final (1).pdf",
+  "total_pages": 18,
+  "segregation_summary": {
+    "claim_forms": [
+      1
+    ],
+    "cheque_or_bank_details": [
+      2
+    ],
+    "identity_document": [
+      3
+    ],
+    "itemized_bill": [
+      9,
+      10
+    ],
+    "discharge_summary": [
+      4
+    ],
+    "prescription": [
+      5,
+      7,
+      15
+    ],
+    "investigation_report": [
+      6,
+      11,
+      12,
+      17
+    ],
+    "cash_receipt": [],
+    "other": [
+      8,
+      13,
+      14,
+      16,
+      18
+    ]
+  },
+  "page_classifications": [
+    {
+      "page_number": 1,
+      "document_type": "claim_forms",
+      "confidence": 0.95,
+      "summary": "Classified as claim_forms via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 2,
+      "document_type": "cheque_or_bank_details",
+      "confidence": 0.95,
+      "summary": "Classified as cheque_or_bank_details via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 3,
+      "document_type": "identity_document",
+      "confidence": 0.95,
+      "summary": "Classified as identity_document via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 4,
+      "document_type": "discharge_summary",
+      "confidence": 0.95,
+      "summary": "Classified as discharge_summary via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 5,
+      "document_type": "prescription",
+      "confidence": 0.95,
+      "summary": "Classified as prescription via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 6,
+      "document_type": "investigation_report",
+      "confidence": 0.95,
+      "summary": "Classified as investigation_report via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 7,
+      "document_type": "prescription",
+      "confidence": 0.95,
+      "summary": "Classified as prescription via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 8,
+      "document_type": "other",
+      "confidence": 0.95,
+      "summary": "Classified as other via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 9,
+      "document_type": "itemized_bill",
+      "confidence": 0.95,
+      "summary": "Classified as itemized_bill via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 10,
+      "document_type": "itemized_bill",
+      "confidence": 0.95,
+      "summary": "Classified as itemized_bill via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 11,
+      "document_type": "investigation_report",
+      "confidence": 0.95,
+      "summary": "Classified as investigation_report via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 12,
+      "document_type": "investigation_report",
+      "confidence": 0.95,
+      "summary": "Classified as investigation_report via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 13,
+      "document_type": "other",
+      "confidence": 0.95,
+      "summary": "Classified as other via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 14,
+      "document_type": "other",
+      "confidence": 0.95,
+      "summary": "Classified as other via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 15,
+      "document_type": "prescription",
+      "confidence": 0.95,
+      "summary": "Classified as prescription via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 16,
+      "document_type": "other",
+      "confidence": 0.95,
+      "summary": "Classified as other via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 17,
+      "document_type": "investigation_report",
+      "confidence": 0.95,
+      "summary": "Classified as investigation_report via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    },
+    {
+      "page_number": 18,
+      "document_type": "other",
+      "confidence": 0.95,
+      "summary": "Classified as other via header analysis",
+      "rationale": "Extracted keyword header matching document type taxonomy"
+    }
+  ],
+  "identity_information": {
+    "patient_name": "JOHN MICHAEL SMITH",
+    "date_of_birth": "15-MAR-1985",
+    "id_number": "ID-987-654-321",
+    "id_type": "Government ID Card",
+    "gender": "Male",
+    "blood_group": "O+",
+    "address": "456 Oak Street, Apt 12B, Springfield, IL 62701",
+    "contact_number": "+1-555-0123",
+    "email": null,
+    "policy_details": {
+      "policy_number": "POL-987654321",
+      "group_number": null,
+      "insurance_provider": "HealthCare Insurance Company",
+      "effective_date": null,
+      "policy_holder_name": null
+    },
+    "source_pages": [
+      3
+    ]
+  },
+  "discharge_summary": {
+    "patient_name": "John Michael Smith",
+    "mrn": "MRN-123456789",
+    "admission_date": "January 20, 2025",
+    "discharge_date": "January 25, 2025",
+    "length_of_stay": "5 days",
+    "admission_diagnosis": "Community Acquired Pneumonia (CAP)",
+    "discharge_diagnosis": "Community Acquired Pneumonia (CAP)",
+    "hospital_course": null,
+    "condition_at_discharge": "Stable, improved",
+    "discharge_medications": [
+      "Amoxicillin 500mg TID x 7 days",
+      "Acetaminophen 500mg PRN for pain"
+    ],
+    "follow_up": null,
+    "attending_physician": {
+      "name": "Dr. Sarah Johnson, MD",
+      "license_number": null,
+      "specialty": null,
+      "hospital_clinic": "City Medical Center"
+    },
+    "source_pages": [
+      4
+    ]
+  },
+  "itemized_bill": {
+    "bill_number": "BILL-2025-789456",
+    "bill_date": "February 1, 2025",
+    "facility_name": "City Medical Center",
+    "items": [
+      {
+        "item_date": "01/20/25",
+        "description": "Room Charges - Semi-Private (5 days)",
+        "quantity": 5.0,
+        "unit_rate": 200.0,
+        "amount": 1000.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Admission Fee",
+        "quantity": 1.0,
+        "unit_rate": 150.0,
+        "amount": 150.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Emergency Room Services",
+        "quantity": 1.0,
+        "unit_rate": 500.0,
+        "amount": 500.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Physician Consultation - Dr. Sarah Johnson",
+        "quantity": 5.0,
+        "unit_rate": 150.0,
+        "amount": 750.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Chest X-Ray",
+        "quantity": 2.0,
+        "unit_rate": 120.0,
+        "amount": 240.0
+      },
+      {
+        "item_date": "01/21/25",
+        "description": "CT Scan - Chest",
+        "quantity": 1.0,
+        "unit_rate": 800.0,
+        "amount": 800.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Complete Blood Count (CBC)",
+        "quantity": 3.0,
+        "unit_rate": 45.0,
+        "amount": 135.0
+      },
+      {
+        "item_date": "01/21/25",
+        "description": "Blood Culture Test",
+        "quantity": 2.0,
+        "unit_rate": 80.0,
+        "amount": 160.0
+      },
+      {
+        "item_date": "01/22/25",
+        "description": "Arterial Blood Gas Analysis",
+        "quantity": 1.0,
+        "unit_rate": 95.0,
+        "amount": 95.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "IV Fluids - Normal Saline",
+        "quantity": 10.0,
+        "unit_rate": 25.0,
+        "amount": 250.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Injection - Ceftriaxone 1g",
+        "quantity": 5.0,
+        "unit_rate": 30.0,
+        "amount": 150.0
+      },
+      {
+        "item_date": "01/21/25",
+        "description": "Injection - Paracetamol",
+        "quantity": 6.0,
+        "unit_rate": 8.0,
+        "amount": 48.0
+      },
+      {
+        "item_date": "01/22/25",
+        "description": "Nebulization Treatment",
+        "quantity": 4.0,
+        "unit_rate": 35.0,
+        "amount": 140.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Oxygen Therapy (per hour)",
+        "quantity": 48.0,
+        "unit_rate": 5.0,
+        "amount": 240.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Nursing Care (per day)",
+        "quantity": 5.0,
+        "unit_rate": 100.0,
+        "amount": 500.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "ICU Monitoring Equipment",
+        "quantity": 2.0,
+        "unit_rate": 200.0,
+        "amount": 400.0
+      },
+      {
+        "item_date": "01/23/25",
+        "description": "Physiotherapy Session",
+        "quantity": 3.0,
+        "unit_rate": 60.0,
+        "amount": 180.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Medical Supplies & Consumables",
+        "quantity": 1.0,
+        "unit_rate": 250.0,
+        "amount": 250.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Laboratory Processing Fee",
+        "quantity": 1.0,
+        "unit_rate": 75.0,
+        "amount": 75.0
+      },
+      {
+        "item_date": "01/20/25",
+        "description": "Pharmacy Dispensing Fee",
+        "quantity": 1.0,
+        "unit_rate": 50.0,
+        "amount": 50.0
+      },
+      {
+        "item_date": null,
+        "description": "Amoxicillin 500mg Capsules",
+        "quantity": 21.0,
+        "unit_rate": 1.5,
+        "amount": 31.5
+      },
+      {
+        "item_date": null,
+        "description": "Acetaminophen 500mg Tablets",
+        "quantity": 20.0,
+        "unit_rate": 0.8,
+        "amount": 16.0
+      },
+      {
+        "item_date": null,
+        "description": "Cetirizine 10mg Tablets",
+        "quantity": 10.0,
+        "unit_rate": 0.9,
+        "amount": 9.0
+      },
+      {
+        "item_date": null,
+        "description": "Omeprazole 20mg Capsules",
+        "quantity": 14.0,
+        "unit_rate": 1.2,
+        "amount": 16.8
+      },
+      {
+        "item_date": null,
+        "description": "Albuterol Inhaler",
+        "quantity": 1.0,
+        "unit_rate": 35.0,
+        "amount": 35.0
+      },
+      {
+        "item_date": null,
+        "description": "Vitamin D3 1000 IU",
+        "quantity": 30.0,
+        "unit_rate": 0.4,
+        "amount": 12.0
+      },
+      {
+        "item_date": null,
+        "description": "Probiotic Capsules",
+        "quantity": 30.0,
+        "unit_rate": 0.85,
+        "amount": 25.5
+      },
+      {
+        "item_date": null,
+        "description": "Saline Nasal Spray",
+        "quantity": 1.0,
+        "unit_rate": 8.5,
+        "amount": 8.5
+      },
+      {
+        "item_date": null,
+        "description": "Antiseptic Mouthwash 250ml",
+        "quantity": 1.0,
+        "unit_rate": 12.0,
+        "amount": 12.0
+      },
+      {
+        "item_date": null,
+        "description": "Digital Thermometer",
+        "quantity": 1.0,
+        "unit_rate": 15.0,
+        "amount": 15.0
+      },
+      {
+        "item_date": null,
+        "description": "Medication Counseling",
+        "quantity": 1.0,
+        "unit_rate": 25.0,
+        "amount": 25.0
+      },
+      {
+        "item_date": null,
+        "description": "Home Delivery Service",
+        "quantity": 1.0,
+        "unit_rate": 10.0,
+        "amount": 10.0
+      }
+    ],
+    "subtotal": 6113.0,
+    "tax_amount": 305.65,
+    "discount_amount": null,
+    "total_amount_billed": 6418.65,
+    "calculated_total_amount": 6329.3,
+    "insurance_payment": 5134.92,
+    "patient_responsibility": 1283.73,
+    "source_pages": [
+      9,
+      10
+    ]
+  },
+  "processing_metadata": {
+    "status": "SUCCESS",
+    "extracted_agents": [
+      "id_agent",
+      "discharge_summary_agent",
+      "itemized_bill_agent"
+    ],
+    "billing_reconciliation": {
+      "item_sum": 6329.3,
+      "billed_subtotal_or_total": 6113.0,
+      "discrepancy": 216.3,
+      "is_reconciled": false
+    }
+  }
+}
