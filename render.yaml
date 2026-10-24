@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: claim-processing-pipeline
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash
+        sync: false
+    autoDeploy: true
+    numInstances: 1
+    branch: main
