@@ -295,6 +295,5 @@ All test cases validate:
 ├── Dockerfile                     # Production container image
 ├── docker-compose.yml             # Local container runner
 ├── requirements.txt               # Python package dependencies
-├── VIDEO_SCRIPT.md                # Video walkthrough guide
 └── README.md                      # Project documentation
 ```
